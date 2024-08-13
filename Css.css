@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(71, 71, 192);
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+form input {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    width: 200px;
+}
+
+button {
+    background-color: rgb(71, 71, 192);
+    color: white;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(71, 71, 192);
+}
+
+#profiles-container, #available-slots, #appointments-list {
+    margin-top: 1em;
+}
+
+.doctor-profile {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.doctor-profile h3 {
+    margin: 0;
+}
+
+.slot {
+    margin: 0.5em 0;
+}

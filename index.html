@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Booking</title>
+    <link rel="stylesheet" href="./Css.css">
+</head>
+<body>
+    <header>
+        <h1>Doctor Appointment Booking System</h1>
+    </header>
+    
+    <main>
+        <!-- Search for Doctors -->
+        <section id="search-section">
+            <h2>Search for Doctors</h2>
+            <form id="search-form">
+                <input type="text" id="specialty" placeholder="Specialty">
+                <input type="text" id="location" placeholder="Location">
+                <input type="date" id="availability">
+                <button type="button" onclick="searchDoctors()">Search</button>
+            </form>
+        </section>
+        
+        <!-- Doctor Profiles -->
+        <section id="doctor-profiles">
+            <h2>Doctor Profiles</h2>
+            <div id="profiles-container"></div>
+        </section>
+        
+        <!-- Appointment Booking -->
+        <section id="appointment-booking" style="display: none;">
+            <h2>Book an Appointment</h2>
+            <div id="doctor-profile-details"></div>
+            <div id="available-slots"></div>
+            <button type="button" onclick="bookAppointment()">Book Appointment</button>
+        </section>
+        
+        <!-- Manage Appointments -->
+        <section id="manage-appointments">
+            <h2>Manage Appointments</h2>
+            <div id="appointments-list"></div>
+        </section>
+    </main>
+    
+    <script src="./Js.js"></script>
+</body>
+</html>
